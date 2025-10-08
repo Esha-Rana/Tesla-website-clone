@@ -10,27 +10,86 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  background-color: black;
-  color: white;
+  height:56px;
 }
 
 .btn{
-   border: none;
-   font-weight: bold;
-   background-color: #0000000D;
-   padding: 4px 16px;
-   border-radius:20px
+    display: flex;
+    gap:30px;
+}
+.v, .s, .c, .e, .d {
+    border:none;
+    background-color: #0000000D;
+    padding: 4px 16px;
+    border-radius:3px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight:bold;
 }
 
-.munipic img {
-    
+.icons{
+    display: flex;
+    gap:18px;
+    margin-right: 20px;
+}
+
+.container img {  
   width: 100%;     
   height: auto;    
-  display: block;  
+  display: block; 
+  position: relative;
+}
 
+.main image{
+    width:100%;
+    display: block;
 }
-.b{
-  background-color:blue;
+
+.text{
+    font-size:30px;
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 10x;
+    right:470px;
+    z-index: 10; 
+    text-align:center;
+    /*font-family:'Franklin Gothic Medium'*/
 }
+.electric {
+    font-size:10px;
+}
+.order {
+    border:none;
+    background-color:rgb(43, 98, 179);
+    color:white;
+    padding: 9px 50px;
+    font-weight:bold;
+    border-radius:5px;
+}
+.learn{
+    border:none;
+    font-weight:bold;
+    border-radius:5px;
+     padding: 9px 50px;
+}
+.support{
+    display:flex;
+   gap:10px;
+   justify-content: center;
+   position:absolute;
+   top:250px;
+   right:450px;
+}
+.arrow{
+    position:absolute;
+    top: 400px;
+    align-items:end;
+}
+.fa-solid fa-chevron-right{
+right:400px;
+}
+
+
 
 
