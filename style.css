@@ -47,7 +47,6 @@
   margin-bottom:55px;
 }
 
-
 .text{
     font-size:30px;
     position: absolute;
@@ -57,7 +56,6 @@
     right:470px;
     z-index: 10; 
     text-align:center;
-    
 }
 .order {
     border:none;
@@ -90,7 +88,6 @@
    top:200px;
    right:450px;
 }
-
 .swipe{
   background-color: #e6e6e6;  
   font-size: 20px;
@@ -109,47 +106,122 @@
     display:flex;
     margin-left:40px;
 }
-.grid {
+
+.cards-wrapper {
   display: flex;
-  flex-wrap: wrap;       /* allows items to wrap on smaller screens */
-  gap: 20px;             /* space between items */
-  justify-content: center;
-  padding: 20px;
+  overflow-x: auto;
+  scrollbar-width: none;  
+}
+.cards {
+   flex: 0 0 auto;     
+   margin-left:55px;
+   width: 900px; 
+   color: white;
+   position:relative;
+}
+.cards img {
+  width: 100%;            
+  height: auto;
+  border-radius: 5px;
+  position:relative;
+  margin-bottom:55px;
+}
+.overlay{
+  position:absolute;
+  top: 350px;
+  left:40px;
+  width: 100%;
+  height: auto;
+}
+.cards h3{
+  margin-bottom: 10px;
+  font-size:50px;
+}
+.cards h4{
+  margin-bottom: 20px;
+}
+.names{
+  top:40px;
+  position:absolute;
+  left:40px;
 }
 
-.left {
-  display: flex;
-  flex: 1 1 45%;         /* roughly two per row, responsive */
-  background-color: #f8f8f8;
-  border-radius: 10px;
-  overflow: hidden;
-  min-width: 300px;      /* ensures responsiveness */
+.grid{
+  display:flex;
+  gap: 25px;
+  margin-right:55px;
+  margin-left:55px;
+}
+.left{ 
+  display:flex;
+  background-color:rgb(234, 232, 232);
+  border-radius:5px;
+  padding:20px 0 20px 40px;
+}
+.l{
+  width:190px;
+  height:250px;
+  background-image:url('images/Homepage-Grid-Current-Offers.avif');
+  background-size:cover;
+}
+.r{
+  width:180px;
+  height:250px;
+  background-image:url('images/ASM-2025-Homepage-Grid-US.avif');
+  background-size:cover;
+}
+.lines{
+  margin-top:35px;
+}
+.lines h2{
+  margin-bottom:10px;
+  margin-right:30px;
+  font-size:30px;
+}
+.lines p{
+  margin-bottom: 10px;
+  margin-right:10px;
+  color: rgb(220, 210, 210)smoke;
+}
+.earn{
+  background-color: white;
+  border:none;
+  padding:10px 80px;
+  border-radius: 4px;
+  cursor:pointer;
+}
+.earn:hover{
+  background-color: rgb(211, 211, 211);
 }
 
-.left img {
-  width: 20%;            /* half of the offer-item width */
-  object-fit: cover;     /* crops image to fill the space */
-}
-
-.lines {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.lines h3 {
-  margin: 0 0 10px 0;
-}
-
-.lines p {
-  margin: 0;
+.demo{
+  display:flex;
+  margin-right:55px;
+  margin-left:15px;
+  margin-top:55px;
+  margin-bottom:55px;
+  gap: 25px;
 }
 .video {
-    width: 70%;
-    margin-left:55px;
+    width:800px;
+    height:400px;
     border-radius: 5px;
-    margin-top:55px;
+    position:relative;
+    overflow:hidden;
+}
+.demo h1{
+  color:black;
+  margin-top:250px;
+  margin-left:30px;
+  margin-bottom:10px;
+ 
+}
+.mo{
+  height:400px;
+  width:500px;
+  background-image: url('images/Homepage-Features-Desktop.avif');
+  border-radius:5px;
+  background-size: cover;
 }
 
 
