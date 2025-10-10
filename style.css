@@ -11,23 +11,59 @@
   padding: 0 30px;
   height:56px;
 }
-
 .btn{
     border:none;
-    margin-right:3px;
+    margin-right:0px;
     background-color: white;
     padding: 7px 13px;
     border-radius:3px;
     cursor: pointer;
     font-weight:bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 .btn:hover{
     background-color: #0000000D;
+    visibility: visible;
+    opacity:100%;
 }
  .icon:hover{
     background-color: #0000000D;
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 40px;
+  left: 0;
+  background-color: white;
+  padding: 10px 20px;
+  z-index: 1000;
+  width:100vw;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content p {
+  color:rgb(200, 198, 198);
+  margin-bottom: 8px;
+}
+.dropdown-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+.dropdown-content li {
+  padding: 6px 0;
+  cursor: pointer; 
+}
+.dropdown-content li:hover {
+  border-bottom:2px solid black;
+}
+
  .icon{
     font-size: 18px;
     background-color: white;
@@ -36,7 +72,7 @@
     margin-left:0px;
     cursor:pointer;
     padding: 5px;
-    border-radius: 3px;; 
+    border-radius: 3px; 
 }
 
 .container img {  
@@ -192,6 +228,13 @@
 }
 .earn:hover{
   background-color: rgb(211, 211, 211);
+}
+
+.float{
+  visibility:hidden;
+  opacity: 100%;
+  width:200px;
+  height:auto;
 }
 
 .demo{
