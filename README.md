@@ -8,8 +8,7 @@ I learned everything **by myself online** and created this project as a way to p
 
 - The website is **not an exact clone** of the original (it’s meant for **learning purposes only**)  
 - My main goal was to **understand structure, layout, and styling basics**
-- The layout and design are optimized for **desktop view only** — it may not look correct on mobile or tablet devices  
-
+- The website looks right only on a laptop screen. Viewing it in desktop mode on a mobile phone might not display it properly.
 
 ## 🚀 Future Improvements
 
